@@ -24,17 +24,17 @@ h2{
    
 }
 .grid{
-    width: 612px;
-    height: 612px;
+    width: 462px;
+    height: 462px;
     display: flex;
     flex-wrap: wrap;
-    margin: auto;
-    padding-bottom: 2rem;
+    margin: 1rem auto;
+    
 }
 .square{
     border: 1.5px solid whitesmoke;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: 15px;
 }
 .mole{
@@ -55,14 +55,29 @@ h2{
         height: 100px;
     }
 }
+
+.button{
+    text-align: center;
+    padding-bottom: 1rem;
+}
+button{
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
 @media (max-width: 670px) {
     
     .grid{
         width: 198px;
         height: 198px;
+        padding-bottom: 0.5rem;
     }
     .square{
         width: 62px;
         height: 62px;
+    }
+    .button{
+        padding-bottom: 0.2rem;
     }
 }
