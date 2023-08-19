@@ -69,13 +69,13 @@ button{
 @media (max-width: 670px) {
     
     .grid{
-        width: 198px;
-        height: 198px;
+        width: 222px;
+        height: 222px;
         padding-bottom: 0.5rem;
     }
     .square{
-        width: 62px;
-        height: 62px;
+        width: 70px;
+        height: 70px;
     }
     .button{
         padding-bottom: 0.2rem;
